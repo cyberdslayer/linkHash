@@ -1,6 +1,7 @@
 const DATABASE_URL = process.env.MONGO_DB_URL || 'mongodb://localhost:27017/url-shortener';
 const mongoose = require('mongoose');
 
+
 const urlMappingSchema = new mongoose.Schema({
     original_url: {
         type: String,
