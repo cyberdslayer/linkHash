@@ -1,7 +1,7 @@
 
 const express = require('express');
 const crypto = require('crypto');
-const URL = require('../models/urlModels.js');
+const URL = require('./urlModels.js');
 
 const router = express.Router();
 
